@@ -37,9 +37,9 @@ extdata = require('extdata')
 lang = string.lower(windower.ffxi.get_info().language)
 item_info = {
     [1]={id=26176,japanese='Ｄ．ホラリング',english='"Dim. Ring (Holla)"',slot=13},
-	[2]={id=26177,japanese='Ｄ．デムリング',english='"Dim. Ring (Dem)"',slot=13},
-	[3]={id=26178,japanese='Ｄ．メアリング',english='"Dim. Ring (Mea)"',slot=13},
-	}
+    [2]={id=26177,japanese='Ｄ．デムリング',english='"Dim. Ring (Dem)"',slot=13},
+    [3]={id=26178,japanese='Ｄ．メアリング',english='"Dim. Ring (Mea)"',slot=13},
+    }
 
 function search_item()
     local item_array = {}
